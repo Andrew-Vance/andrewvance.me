@@ -1,3 +1,62 @@
 body {
-  background-color: rgb(211, 186, 235);
+  background-color: rgb(47 47 47);
+  background-image: linear-gradient(to bottom right, #000000, #353535);
+  margin: 0 0 0 0;
+}
+
+.navbar {
+  height: 60px;
+  width: 100%;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(192, 189, 189);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #232323;
+  background-image: linear-gradient(to bottom right, black, #1b1b1b 35%, rgb(150 33 179));
+  box-shadow: -1px 3px #333333;
+}
+
+.navbar span {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.sidebar {
+  width: 50px;
+  height: 100%;
+  position: fixed;
+}
+
+.line {
+  width: 1px;
+  height: 70%;
+  background-color: white;
+  position: relative;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.sidebar img {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+
+.infoCard {
+  color: white;
+  width: 50%;
+  margin: auto;
+  margin-top: 150px;
+  height: 3000px;
+}
+
+.myImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 60%;
 }
