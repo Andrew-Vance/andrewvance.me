@@ -4,9 +4,17 @@ const Sidebar = (props) => {
 
   return (
     <div className='sidebar'>
-      <div className='line'></div>
-      <img src='https://s3.us-east-2.amazonaws.com/andrewvance.me/linkedin-logo-png.png' />
-      <img src='https://s3.us-east-2.amazonaws.com/andrewvance.me/github_icon_png.png' />
+      <div className='line'> <div className='animatedLine'></div></div>
+
+      <a href='https://www.linkedin.com/in/andrew-clay-vance/' target='_blank' rel='noopener noreferrer'>
+        <img src='https://s3.us-east-2.amazonaws.com/andrewvance.me/linkedin-logo-png.png'/>
+      </a>
+
+      <a href='https://github.com/Andrew-Vance' target='_blank' rel='noopener noreferrer'>
+        <img src='https://s3.us-east-2.amazonaws.com/andrewvance.me/github_icon_png.png'/>
+      </a>
+
+      {/*this needs an onclick to change view to an email me form */}
       <img src='https://s3.us-east-2.amazonaws.com/andrewvance.me/email_icon.png' />
     </div>
   );
