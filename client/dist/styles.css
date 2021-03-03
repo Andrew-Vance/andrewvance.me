@@ -1,8 +1,32 @@
+/* ANIMATIONS */
+
+@keyframes grow {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.3);
+  }
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    transform: translateY(100%);
+  }
+  50% {
+    transform: translateY(1800%);
+  }
+}
+
+/* BACKGROUND */
+
 body {
   background-color: rgb(47 47 47);
   background-image: linear-gradient(to bottom right, #000000, #353535);
   margin: 0 0 0 0;
 }
+
+/* NAVBAR */
 
 .navbar {
   height: 60px;
@@ -22,6 +46,8 @@ body {
   margin-left: 10px;
   margin-right: 10px;
 }
+
+/* SIDEBAR */
 
 .sidebar {
   width: 50px;
@@ -44,8 +70,21 @@ body {
   position: relative;
   margin-top: 10px;
   margin-left: 10px;
+  cursor: pointer;
 }
 
+.sidebar img:hover {
+  animation: grow .1s forwards;
+}
+
+.animatedLine {
+  width: 1px;
+  height: 5%;
+  background-color: black;
+  animation: MoveUpDown 8s ease-in-out infinite;
+}
+
+/* MAIN PAGE INFO CARD */
 
 .infoCard {
   color: white;
