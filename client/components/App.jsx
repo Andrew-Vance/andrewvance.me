@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './Navbar.jsx';
+import Sidebar from './Sidebar.jsx';
 
 const App = (props) => {
   return (
     <div>
       <Navbar />
+      <Sidebar />
       <div className='infoCard'>
         {/* info card */}
         some div with white background and black text
