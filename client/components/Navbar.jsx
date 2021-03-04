@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Navbar = (props) => {
+const Navbar = ({ updateView }) => {
 
   return (
     <div className='navbar'>
-      <span>Home</span>
-      <span>Projects</span>
-      <span>Contact Me</span>
+      <span onClick={() => updateView('home')}>Home</span>
+      <span onClick={() => updateView('projects')}>Projects</span>
+      <span onClick={() => updateView('contact')}>Contact Me</span>
     </div>
   );
 };
