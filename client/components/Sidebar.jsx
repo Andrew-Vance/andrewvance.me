@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Sidebar = (props) => {
+const Sidebar = ({ updateView }) => {
 
   return (
     <div className='sidebar'>
@@ -15,7 +15,7 @@ const Sidebar = (props) => {
       </a>
 
       {/*this needs an onclick to change view to an email me form */}
-      <img src='https://s3.us-east-2.amazonaws.com/andrewvance.me/email_icon.png' />
+      <img onClick={() => updateView('contact')} src='https://s3.us-east-2.amazonaws.com/andrewvance.me/email_icon.png' />
     </div>
   );
 };
