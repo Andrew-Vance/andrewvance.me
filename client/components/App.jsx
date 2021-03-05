@@ -20,7 +20,7 @@ const App = (props) => {
 
   return (
     <div>
-      < Navbar updateView={updateView} />
+      < Navbar updateView={updateView} view={view} />
       < Sidebar updateView={updateView} />
       {renderView()}
     </div>
