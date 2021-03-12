@@ -3,6 +3,7 @@ import Navbar from './Navbar.jsx';
 import Sidebar from './Sidebar.jsx';
 import Home from './Home.jsx'
 import ContactMe from './ContactMe.jsx';
+import Projects from './Projects.jsx';
 
 const App = (props) => {
 
@@ -12,7 +13,7 @@ const App = (props) => {
     if (view === 'home') {
       return < Home />;
     } else if (view === 'projects') {
-
+      return < Projects />;
     } else if (view === 'contact') {
       return < ContactMe />;
     }
