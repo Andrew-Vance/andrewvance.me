@@ -1,3 +1,4 @@
 node_modules
 database/config.js
 client/dist/bundle.js
+server/mailerConfig.js

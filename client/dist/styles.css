@@ -215,6 +215,15 @@ textarea {
   background-color: #e09cdb;
 }
 
+.sentMessage {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 30%;
+  font-size: 40px;
+  font-weight: 700;
+  color: green;
+}
+
 /* Project Page */
 
 .projectsPage {
@@ -231,24 +240,34 @@ textarea {
   border-top-right-radius: 3% 15%;
   border-bottom-left-radius: 3% 15%;
   border-bottom-right-radius: 3% 15%;
+  background-color: white;
 }
 
 .project1 {
   background-image: url('https://s3.us-east-2.amazonaws.com/andrewvance.me/carousel_demo.png');
-  background-size: 500px 500px;
+  background-size: 40% 100%;
   background-repeat: no-repeat;
 }
 
 .project2 {
 
 background-image: url('https://s3.us-east-2.amazonaws.com/andrewvance.me/github_logo.jpg');
-background-size: 500px 400px;
+background-size: 40% 100%;
 background-repeat: no-repeat;
 }
 
 .project3 {
   background-image: url('https://s3.us-east-2.amazonaws.com/andrewvance.me/website_siideshot.png');
-  background-size: 520px 400px;
+  background-size: 42% 108%;
   background-repeat: no-repeat;
   background-position: -20px -20px;
+}
+
+.projectInfo {
+  position: relative;
+  float: right;
+  text-align: center;
+  width: 50%;
+  right: 5%;
+  top: 5%;
 }
