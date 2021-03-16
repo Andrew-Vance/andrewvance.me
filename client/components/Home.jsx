@@ -9,7 +9,7 @@ const Home = (props) => {
       <div className='info'>
         <h1>Andrew Vance</h1>
         <h2>Software Engineer</h2><br></br><br></br>
-        <h3>I am someone who has always loved building and creating new things. I am most versed with JavaScript, Node.js, Express and React. I am currently looking for new opportunities, if you would like to talk about new opportunities free to email me at andrewaddress2@gmail.com, or if you just want to say hi </h3>
+        <h3>I am someone who has always loved building and creating new things. I am most versed with JavaScript, Node.js, Express and React. I am currently looking for new opportunities, if you would like to talk about new opportunities feel free to email me at andrewaddress2@gmail.com, or if you just want to say hi </h3>
       </div>
     </div>
     <div className='resume'>
