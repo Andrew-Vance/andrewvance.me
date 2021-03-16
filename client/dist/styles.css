@@ -48,14 +48,15 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: #232323;
-  background-image: linear-gradient(to bottom right, black, #1b1b1b 35%, rgb(150 33 179));
-  box-shadow: -1px 3px #333333;
+  background-color: black;
 }
 
 .navbar span {
   margin-left: 10px;
   margin-right: 10px;
+  height: 50%;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .navbar span:hover {
@@ -213,6 +214,10 @@ textarea {
   font-size: 25px;
   border: none;
   background-color: #e09cdb;
+}
+
+.subsent {
+  background-color: green;
 }
 
 .sentMessage {
