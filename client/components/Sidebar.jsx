@@ -3,7 +3,7 @@ import React from 'react';
 const Sidebar = ({ updateView }) => {
 
   return (
-    <div className='sidebar'>
+    <nav className='sidebar'>
       <div className='line'> <div className='animatedLine'></div></div>
 
       <a href='https://www.linkedin.com/in/andrew-clay-vance/' target='_blank' rel='noopener noreferrer'>
@@ -16,7 +16,7 @@ const Sidebar = ({ updateView }) => {
 
       {/*this needs an onclick to change view to an email me form */}
       <img onClick={() => updateView('contact')} src='https://s3.us-east-2.amazonaws.com/andrewvance.me/email_icon.png' />
-    </div>
+    </nav>
   );
 };
 

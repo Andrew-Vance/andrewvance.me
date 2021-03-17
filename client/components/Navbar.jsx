@@ -9,11 +9,11 @@ const Navbar = ({ updateView, view }) => {
   };
 
   return (
-    <div className='navbar'>
+    <nav className='navbar'>
       <span className={currentView('home')} onClick={() => updateView('home')}>Home</span>
       <span className={currentView('projects')} onClick={() => updateView('projects')}>Projects</span>
       <span className={currentView('contact')} onClick={() => updateView('contact')}>Contact Me</span>
-    </div>
+    </nav>
   );
 };
 
